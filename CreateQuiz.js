@@ -37,7 +37,7 @@ export default function CreateQuiz({ navigation }) {
         
     }, []);
 
-    //function definition for fetching available quiz types from firebase database
+    //function for fetching available quiz types from firebase database
    
     //function to display snackbar
     function displaySnackBar(type, text) {
@@ -126,7 +126,7 @@ export default function CreateQuiz({ navigation }) {
         return resp;
     }
 
-    //function definition to insert quiz in firebase database
+    //function to insert quiz in firebase database
    
 
     //component rendering
