@@ -188,7 +188,7 @@ export default function CreateQuiz({ navigation }) {
 
                             <BasicButton
                                 text="Create"
-                                onPress={hanldeCreateBtnClick}
+                                onPress={handleCreateBtnClick}
                             />
                             <View style={styles.divider}></View>
                         </View>
